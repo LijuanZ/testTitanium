@@ -1,0 +1,479 @@
+
+2016-02-11 13:00:07
+
+Operating System
+  Name                        = Microsoft Windows 8.1
+  Version                     = 6.3.9600
+  Architecture                = 32bit
+  # CPUs                      = 4
+  Memory                      = 8490418176
+
+Node.js
+  Node.js Version             = 0.12.7
+  npm Version                 = 2.11.3
+
+Titanium CLI
+  CLI Version                 = 5.0.5
+
+Titanium SDK
+  SDK Version                 = 5.1.2.GA
+  SDK Path                    = C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA
+  Target Platform             = mobileweb
+
+Command
+  node C:\Users\Lijuan\.appcelerator\install\5.1.0\package\node_modules\appc-cli-titanium\node_modules\titanium\bin\titanium build --platform mobileweb --log-level trace --sdk 5.1.2.GA --project-dir D:\appceleratorWorkspace\test --deploy-type development --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 50792 --plugin-paths C:\Users\Lijuan\.appcelerator\install\5.1.0\package\node_modules --config-file C:\Users\Lijuan\AppData\Local\Temp\build-1455224392264.json --no-banner
+
+[DEBUG]  Detecting modules in C:\ProgramData\Application Data\Titanium\modules
+[DEBUG]  Detected android module: facebook 4.0.5 @ C:\ProgramData\Application Data\Titanium\modules\android\facebook\4.0.5
+[DEBUG]  Detected android module: ti.cloudpush 3.4.1 @ C:\ProgramData\Application Data\Titanium\modules\android\ti.cloudpush\3.4.1
+[DEBUG]  Detected android module: ti.map 2.3.4 @ C:\ProgramData\Application Data\Titanium\modules\android\ti.map\2.3.4
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.9 @ C:\ProgramData\Application Data\Titanium\modules\commonjs\ti.cloud\3.2.9
+[DEBUG]  Detecting modules in C:\ProgramData\Titanium\modules
+[DEBUG]  Detected android module: facebook 4.0.5 @ C:\ProgramData\Titanium\modules\android\facebook\4.0.5
+[DEBUG]  Detected android module: ti.cloudpush 3.4.1 @ C:\ProgramData\Titanium\modules\android\ti.cloudpush\3.4.1
+[DEBUG]  Detected android module: ti.map 2.3.4 @ C:\ProgramData\Titanium\modules\android\ti.map\2.3.4
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.9 @ C:\ProgramData\Titanium\modules\commonjs\ti.cloud\3.2.9
+[DEBUG]  Looking for Titanium module id=ti.cloud version=latest platform=commonjs deploy-type=development
+[INFO]   Found Titanium module id=ti.cloud version=3.2.9 platform=commonjs deploy-type=development path=C:\ProgramData\Application Data\Titanium\modules\commonjs\ti.cloud\3.2.9
+[DEBUG]  No project level plugins to load
+[TRACE]  Snapshotting build directory
+[INFO]   Compiling "development" build
+[INFO]   Reading Titanium Mobile Web package.json file
+[INFO]   Validating theme
+[DEBUG]  Using default theme
+[TRACE]  offline build file C:\Users\Lijuan\AppData\Local\Temp\build-cccec80af74b73958096bacebe6947d9d175fdb5.json
+[TRACE]  online 1
+[TRACE]  optimizing build, last build was 478.415 sec ago
+[DEBUG]  Deleting existing build directory
+[INFO]   Copying project files
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/dependencies.json => D:\appceleratorWorkspace\test\build\mobileweb\titanium/dependencies.json
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/package.json => D:\appceleratorWorkspace\test\build\mobileweb\titanium/package.json
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/Accelerometer.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/Accelerometer.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/Analytics.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/Analytics.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/API.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/API.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/App/Properties.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/App/Properties.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/App.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/App.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/Blob.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/Blob.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/BlobStream.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/BlobStream.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/Buffer.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/Buffer.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/BufferStream.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/BufferStream.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/Codec.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/Codec.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/Facebook/LoginButton.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/Facebook/LoginButton.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/Facebook.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/Facebook.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/Filesystem/File.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/Filesystem/File.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/Filesystem/FileStream.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/Filesystem/FileStream.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/Filesystem.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/Filesystem.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/Geolocation.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/Geolocation.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/Gesture.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/Gesture.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/IOStream.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/IOStream.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/Locale.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/Locale.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/Map/Annotation.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/Map/Annotation.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/Map/View.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/Map/View.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/Map.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/Map.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/Media/AudioPlayer.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/Media/AudioPlayer.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/Media/Sound.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/Media/Sound.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/Media/VideoPlayer.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/Media/VideoPlayer.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/Media.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/Media.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/Network/HTTPClient.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/Network/HTTPClient.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/Network.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/Network.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/Platform/DisplayCaps.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/Platform/DisplayCaps.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/Platform.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/Platform.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/UI/2DMatrix.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/UI/2DMatrix.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/UI/ActivityIndicator.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/UI/ActivityIndicator.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/UI/ActivityIndicatorStyle.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/UI/ActivityIndicatorStyle.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/UI/AlertDialog.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/UI/AlertDialog.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/UI/Animation.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/UI/Animation.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/UI/Button.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/UI/Button.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/UI/Clipboard.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/UI/Clipboard.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/UI/EmailDialog.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/UI/EmailDialog.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/UI/ImageView.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/UI/ImageView.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/UI/Label.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/UI/Label.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/UI/MobileWeb/NavigationGroup.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/UI/MobileWeb/NavigationGroup.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/UI/MobileWeb/TableViewSeparatorStyle.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/UI/MobileWeb/TableViewSeparatorStyle.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/UI/MobileWeb.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/UI/MobileWeb.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/UI/OptionDialog.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/UI/OptionDialog.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/UI/Picker.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/UI/Picker.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/UI/PickerColumn.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/UI/PickerColumn.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/UI/PickerRow.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/UI/PickerRow.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/UI/ProgressBar.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/UI/ProgressBar.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/UI/ScrollableView.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/UI/ScrollableView.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/UI/ScrollView.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/UI/ScrollView.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/UI/Slider.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/UI/Slider.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/UI/Switch.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/UI/Switch.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/UI/Tab.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/UI/Tab.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/UI/TabGroup.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/UI/TabGroup.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/UI/TableView.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/UI/TableView.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/UI/TableViewRow.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/UI/TableViewRow.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/UI/TableViewSection.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/UI/TableViewSection.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/UI/TextArea.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/UI/TextArea.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/UI/TextField.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/UI/TextField.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/UI/View.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/UI/View.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/UI/WebView.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/UI/WebView.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/UI/Window.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/UI/Window.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/UI.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/UI.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/Utils.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/Utils.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/XML.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/XML.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/Yahoo.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/Yahoo.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/analytics.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/analytics.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/browser.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/browser.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/colors.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/colors.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/css.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/css.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/declare.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/declare.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/dom.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/dom.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/encoding.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/encoding.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/event.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/event.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/Evented.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/Evented.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/Filesystem/Local.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/Filesystem/Local.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/Gestures/DoubleTap.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/Gestures/DoubleTap.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/Gestures/Dragging.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/Gestures/Dragging.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/Gestures/LongPress.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/Gestures/LongPress.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/Gestures/Pinch.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/Gestures/Pinch.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/Gestures/SingleTap.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/Gestures/SingleTap.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/Gestures/Swipe.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/Gestures/Swipe.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/Gestures/TouchCancel.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/Gestures/TouchCancel.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/Gestures/TouchEnd.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/Gestures/TouchEnd.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/Gestures/TouchMove.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/Gestures/TouchMove.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/Gestures/TouchStart.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/Gestures/TouchStart.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/Gestures/TwoFingerTap.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/Gestures/TwoFingerTap.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/has.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/has.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/image.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/image.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/include.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/include.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/lang.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/lang.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/Layouts/Base.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/Layouts/Base.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/Layouts/Composite.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/Layouts/Composite.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/Layouts/ConstrainingHorizontal.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/Layouts/ConstrainingHorizontal.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/Layouts/ConstrainingVertical.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/Layouts/ConstrainingVertical.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/Layouts/Horizontal.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/Layouts/Horizontal.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/Layouts/Vertical.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/Layouts/Vertical.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/Layouts.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/Layouts.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/Map/Google.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/Map/Google.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/ready.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/ready.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/string.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/string.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/style.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/style.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/text.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/text.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/UI/blank.html => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/UI/blank.html
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/UI/Element.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/UI/Element.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/UI/FontWidget.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/UI/FontWidget.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/UI/KineticScrollView.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/UI/KineticScrollView.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/UI/SuperView.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/UI/SuperView.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/UI/TextBox.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/UI/TextBox.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/UI/WebViewBridge.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/UI/WebViewBridge.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_/UI/Widget.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_/UI/Widget.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti/_.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti/_.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\titanium/Ti.js => D:\appceleratorWorkspace\test\build\mobileweb\titanium/Ti.js
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\themes/common.css => D:\appceleratorWorkspace\test\build\mobileweb\themes/common.css
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\themes/default/default.css => D:\appceleratorWorkspace\test\build\mobileweb\themes/default/default.css
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\themes/default/Facebook/login.png => D:\appceleratorWorkspace\test\build\mobileweb\themes/default/Facebook/login.png
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\themes/default/Facebook/loginPressed.png => D:\appceleratorWorkspace\test\build\mobileweb\themes/default/Facebook/loginPressed.png
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\themes/default/Facebook/loginWide.png => D:\appceleratorWorkspace\test\build\mobileweb\themes/default/Facebook/loginWide.png
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\themes/default/Facebook/loginWidePressed.png => D:\appceleratorWorkspace\test\build\mobileweb\themes/default/Facebook/loginWidePressed.png
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\themes/default/Facebook/logout.png => D:\appceleratorWorkspace\test\build\mobileweb\themes/default/Facebook/logout.png
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\themes/default/Facebook/logoutPressed.png => D:\appceleratorWorkspace\test\build\mobileweb\themes/default/Facebook/logoutPressed.png
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\themes/default/Map/location.png => D:\appceleratorWorkspace\test\build\mobileweb\themes/default/Map/location.png
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\themes/default/Map/marker_green.png => D:\appceleratorWorkspace\test\build\mobileweb\themes/default/Map/marker_green.png
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\themes/default/Map/marker_purple.png => D:\appceleratorWorkspace\test\build\mobileweb\themes/default/Map/marker_purple.png
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\themes/default/Map/marker_red.png => D:\appceleratorWorkspace\test\build\mobileweb\themes/default/Map/marker_red.png
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\themes/default/UI/TableViewRow/check.png => D:\appceleratorWorkspace\test\build\mobileweb\themes/default/UI/TableViewRow/check.png
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\themes/default/UI/TableViewRow/child.png => D:\appceleratorWorkspace\test\build\mobileweb\themes/default/UI/TableViewRow/child.png
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\themes/default/UI/TableViewRow/detail.png => D:\appceleratorWorkspace\test\build\mobileweb\themes/default/UI/TableViewRow/detail.png
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\mobileweb\themes/default/UI/TableViewRow/detailActive.png => D:\appceleratorWorkspace\test\build\mobileweb\themes/default/UI/TableViewRow/detailActive.png
+[DEBUG]  Copying D:\appceleratorWorkspace\test\Resources/app.js => D:\appceleratorWorkspace\test\build\mobileweb/app.js
+[DEBUG]  Copying D:\appceleratorWorkspace\test\Resources/images/KS_nav_ui.png => D:\appceleratorWorkspace\test\build\mobileweb/images/KS_nav_ui.png
+[DEBUG]  Copying D:\appceleratorWorkspace\test\Resources/images/KS_nav_views.png => D:\appceleratorWorkspace\test\build\mobileweb/images/KS_nav_views.png
+[DEBUG]  Copying D:\appceleratorWorkspace\test\Resources/KS_nav_ui.png => D:\appceleratorWorkspace\test\build\mobileweb/KS_nav_ui.png
+[DEBUG]  Copying D:\appceleratorWorkspace\test\Resources/KS_nav_views.png => D:\appceleratorWorkspace\test\build\mobileweb/KS_nav_views.png
+[DEBUG]  Copying D:\appceleratorWorkspace\test\Resources/ui/common/ApplicationTabGroup.js => D:\appceleratorWorkspace\test\build\mobileweb/ui/common/ApplicationTabGroup.js
+[DEBUG]  Copying D:\appceleratorWorkspace\test\Resources/ui/handheld/ApplicationWindow.js => D:\appceleratorWorkspace\test\build\mobileweb/ui/handheld/ApplicationWindow.js
+[DEBUG]  Copying D:\appceleratorWorkspace\test\Resources/ui/tablet/ApplicationWindow.js => D:\appceleratorWorkspace\test\build\mobileweb/ui/tablet/ApplicationWindow.js
+[DEBUG]  Copying D:\appceleratorWorkspace\test\Resources\mobileweb/appicon.png => D:\appceleratorWorkspace\test\build\mobileweb/appicon.png
+[DEBUG]  Copying D:\appceleratorWorkspace\test\Resources\mobileweb\apple_startup_images\Default.png => D:\appceleratorWorkspace\test\build\mobileweb\Default.png
+[DEBUG]  Copying D:\appceleratorWorkspace\test\Resources\mobileweb\apple_startup_images\Default-Portrait.png => D:\appceleratorWorkspace\test\build\mobileweb\Default-Portrait.png
+[DEBUG]  Copying D:\appceleratorWorkspace\test\Resources\mobileweb\apple_startup_images\Default-Landscape.png => D:\appceleratorWorkspace\test\build\mobileweb\Default-Landscape.png
+[INFO]   Finding all Titanium API dependencies
+[INFO]   Creating favicon and Apple touch icons
+[DEBUG]  Copying D:\appceleratorWorkspace\test\Resources\mobileweb\appicon.png => D:\appceleratorWorkspace\test\build\mobileweb\appicon.png
+[TRACE]  Resizing images: java -jar "C:\ProgramData\Titanium\mobilesdk\win32\5.1.2.GA\node_modules\node-appc\tools\resizer\resizer.jar" "D:\appceleratorWorkspace\test\Resources\mobileweb\appicon.png" "D:\appceleratorWorkspace\test\build\mobileweb\favicon.png" 16 16 "D:\appceleratorWorkspace\test\build\mobileweb\apple-touch-icon-precomposed.png" 57 57 "D:\appceleratorWorkspace\test\build\mobileweb\apple-touch-icon-57x57-precomposed.png" 57 57 "D:\appceleratorWorkspace\test\build\mobileweb\apple-touch-icon-72x72-precomposed.png" 72 72 "D:\appceleratorWorkspace\test\build\mobileweb\apple-touch-icon-114x114-precomposed.png" 114 114 "D:\appceleratorWorkspace\test\build\mobileweb\appicon144.png" 144 144
+[INFO]   Finding all required modules to be cached
+[INFO]   Finding all precached modules
+[INFO]   Finding all precached images
+[INFO]   Bundling Titanium Mobile Module ti.cloud
+[DEBUG]  Compiling localization files
+[DEBUG]  Processing i18n file: en/strings.xml
+[DEBUG]  Processing i18n file: ja/strings.xml
+[INFO]   Finding all distinct cached modules
+[INFO]   Found 113 dependencies, 2 packages, 113 modules
+[INFO]   Assembling titanium.js
+[INFO]   Processing splash screen
+[INFO]   Assembling titanium.css
+[INFO]   Analyzing JavaScript
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\app.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\app.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\helper\Utils.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\helper\WindowManager.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\accessControlLists\checkUser.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\accessControlLists\create.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\accessControlLists\selectUsers.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\accessControlLists\show.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\accessControlLists\table.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\accessControlLists\updateUsers.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\chats\query.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\chats\selectUsersForGroup.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\chats\showChatGroup.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\chats\table.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\checkins\create.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\checkins\query.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\checkins\remove.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\checkins\show.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\checkins\table.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\clients\geolocateMe.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\clients\geolocateParticular.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\clients\table.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\customObjects\create.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\customObjects\query.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\customObjects\remove.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\customObjects\table.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\customObjects\update.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\emails\table.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\events\create.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\events\query.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\events\queryOccurrences.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\events\remove.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\events\search.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\events\searchOccurrences.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\events\show.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\events\showOccurrences.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\events\table.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\events\update.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\files\create.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\files\query.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\files\remove.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\files\show.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\files\table.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\files\update.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\friends\add.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\friends\approve.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\friends\remove.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\friends\search.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\friends\searchUsers.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\friends\table.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\genericSendRequest.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\geoFences\create.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\geoFences\query.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\geoFences\remove.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\geoFences\table.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\geoFences\update.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\keyValues\table.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\likes\create.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\likes\remove.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\likes\table.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\messages\create.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\messages\remove.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\messages\removeThread.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\messages\reply.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\messages\selectUsers.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\messages\show.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\messages\showInbox.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\messages\showSent.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\messages\showThreadMessages.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\messages\showThreads.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\messages\table.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\photoCollections\create.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\photoCollections\remove.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\photoCollections\search.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\photoCollections\show.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\photoCollections\showPhotos.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\photoCollections\showSubcollections.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\photoCollections\table.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\photoCollections\update.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\photos\create.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\photos\query.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\photos\remove.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\photos\search.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\photos\show.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\photos\table.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\photos\update.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\places\create.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\places\query.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\places\remove.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\places\search.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\places\show.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\places\table.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\places\update.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\posts\create.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\posts\query.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\posts\remove.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\posts\show.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\posts\table.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\posts\update.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\pushNotifications\notify.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\pushNotifications\notifyTokens.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\pushNotifications\pushManager.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\pushNotifications\query.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\pushNotifications\queryChannels.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\pushNotifications\resetBadge.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\pushNotifications\setBadge.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\pushNotifications\settings.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\pushNotifications\showChannels.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\pushNotifications\subscribe.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\pushNotifications\subscribeToken.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\pushNotifications\table.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\pushNotifications\unsubscribe.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\pushNotifications\unsubscribeToken.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\pushNotifications\updateSubscription.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\pushSchedules\create.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\pushSchedules\query.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\pushSchedules\remove.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\pushSchedules\table.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\reviews\create.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\reviews\query.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\reviews\remove.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\reviews\show.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\reviews\table.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\reviews\update.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\social\externalLink.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\social\externalLogin.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\social\externalUnlink.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\social\searchFacebookFriends.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\social\table.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\status\create.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\status\query.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\status\remove.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\status\search.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\status\show.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\status\table.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\status\update.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\users\create.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\users\login.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\users\loginStatus.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\users\logout.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\users\query.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\users\remove.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\users\requestResetPassword.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\users\resendConfirmation.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\users\search.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\users\show.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\users\showMe.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\users\table.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\example\windows\users\update.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\modules\ti.cloud\ti.cloud.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\API.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\Accelerometer.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\Analytics.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\App\Properties.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\App.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\Blob.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\BlobStream.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\Buffer.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\BufferStream.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\Codec.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\Facebook\LoginButton.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\Facebook.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\Filesystem\File.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\Filesystem\FileStream.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\Filesystem.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\Geolocation.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\Gesture.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\IOStream.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\Locale\en\i18n.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\Locale\ja\i18n.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\Locale.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\Map\Annotation.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\Map\View.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\Map.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\Media\AudioPlayer.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\Media\Sound.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\Media\VideoPlayer.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\Media.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\Network\HTTPClient.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\Network.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\Platform\DisplayCaps.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\Platform.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\UI\2DMatrix.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\UI\ActivityIndicator.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\UI\ActivityIndicatorStyle.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\UI\AlertDialog.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\UI\Animation.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\UI\Button.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\UI\Clipboard.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\UI\EmailDialog.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\UI\ImageView.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\UI\Label.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\UI\MobileWeb\NavigationGroup.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\UI\MobileWeb\TableViewSeparatorStyle.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\UI\MobileWeb.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\UI\OptionDialog.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\UI\Picker.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\UI\PickerColumn.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\UI\PickerRow.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\UI\ProgressBar.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\UI\ScrollView.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\UI\ScrollableView.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\UI\Slider.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\UI\Switch.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\UI\Tab.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\UI\TabGroup.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\UI\TableView.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\UI\TableViewRow.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\UI\TableViewSection.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\UI\TextArea.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\UI\TextField.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\UI\View.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\UI\WebView.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\UI\Window.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\UI.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\Utils.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\XML.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\Yahoo.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\Evented.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\Filesystem\Local.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\Gestures\DoubleTap.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\Gestures\Dragging.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\Gestures\LongPress.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\Gestures\Pinch.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\Gestures\SingleTap.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\Gestures\Swipe.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\Gestures\TouchCancel.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\Gestures\TouchEnd.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\Gestures\TouchMove.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\Gestures\TouchStart.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\Gestures\TwoFingerTap.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\Layouts\Base.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\Layouts\Composite.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\Layouts\ConstrainingHorizontal.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\Layouts\ConstrainingVertical.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\Layouts\Horizontal.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\Layouts\Vertical.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\Layouts.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\Map\Google.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\UI\Element.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\UI\FontWidget.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\UI\KineticScrollView.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\UI\SuperView.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\UI\TextBox.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\UI\WebViewBridge.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\UI\Widget.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\analytics.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\browser.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\colors.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\css.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\declare.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\dom.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\encoding.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\event.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\has.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\image.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\include.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\lang.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\ready.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\string.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\style.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_\text.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti\_.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium\Ti.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\titanium.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\ui\common\ApplicationTabGroup.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\ui\handheld\ApplicationWindow.js
+[DEBUG]  Analyzing D:\appceleratorWorkspace\test\build\mobileweb\ui\tablet\ApplicationWindow.js
+[INFO]   Creating the filesystem registry
+[INFO]   Creating the index.html
+[INFO]   Project built successfully in 15s 297ms

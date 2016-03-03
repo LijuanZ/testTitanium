@@ -1,0 +1,8 @@
+"D:/appceleratorWorkspace/test/build/android/gen/android/support/v7/appcompat/R.java"
+"D:/appceleratorWorkspace/test/build/android/gen/android/support/v7/cardview/R.java"
+"D:/appceleratorWorkspace/test/build/android/gen/edu/uw/zhanglj/test/AssetCryptImpl.java"
+"D:/appceleratorWorkspace/test/build/android/gen/edu/uw/zhanglj/test/R.java"
+"D:/appceleratorWorkspace/test/build/android/gen/edu/uw/zhanglj/test/TestActivity.java"
+"D:/appceleratorWorkspace/test/build/android/gen/edu/uw/zhanglj/test/TestAppInfo.java"
+"D:/appceleratorWorkspace/test/build/android/gen/edu/uw/zhanglj/test/TestApplication.java"
+"D:/appceleratorWorkspace/test/build/android/gen/ti/modules/titanium/ui/R.java"
